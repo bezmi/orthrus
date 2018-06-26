@@ -1,0 +1,791 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:atreus_split
+LIBS:Si2302
+LIBS:atreus_split-cache
+LIBS:atreus_split-rescue
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Si2302 Q1
+U 1 1 5ACFA7D3
+P 4300 4950
+F 0 "Q1" H 4500 5025 50  0000 L CNN
+F 1 "Si2302" H 4500 4950 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4500 4875 50  0001 L CIN
+F 3 "" H 4300 4950 50  0001 L CNN
+	1    4300 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L CHERRY_MX S11
+U 1 1 5ACFA9BF
+P 3500 2400
+F 0 "S11" H 3500 2350 60  0000 C CNN
+F 1 "CHERRY_MX" H 3500 2600 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 3500 2600 60  0001 C CNN
+F 3 "" H 3500 2600 60  0001 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S21
+U 1 1 5ACFAA09
+P 4650 2400
+F 0 "S21" H 4650 2350 60  0000 C CNN
+F 1 "CHERRY_MX" H 4650 2600 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 4650 2600 60  0001 C CNN
+F 3 "" H 4650 2600 60  0001 C CNN
+	1    4650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S31
+U 1 1 5ACFAA62
+P 5800 2400
+F 0 "S31" H 5800 2350 60  0000 C CNN
+F 1 "CHERRY_MX" H 5800 2600 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 5800 2600 60  0001 C CNN
+F 3 "" H 5800 2600 60  0001 C CNN
+	1    5800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S41
+U 1 1 5ACFAAA4
+P 6850 2400
+F 0 "S41" H 6850 2350 60  0000 C CNN
+F 1 "CHERRY_MX" H 6850 2600 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 6850 2600 60  0001 C CNN
+F 3 "" H 6850 2600 60  0001 C CNN
+	1    6850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S51
+U 1 1 5ACFAAC9
+P 7900 2400
+F 0 "S51" H 7900 2350 60  0000 C CNN
+F 1 "CHERRY_MX" H 7900 2600 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 7900 2600 60  0001 C CNN
+F 3 "" H 7900 2600 60  0001 C CNN
+	1    7900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S71
+U 1 1 5ACFAAF6
+P 10100 3750
+F 0 "S71" H 10100 3700 60  0000 C CNN
+F 1 "CHERRY_MX" H 10100 3950 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 10100 3950 60  0001 C CNN
+F 3 "" H 10100 3950 60  0001 C CNN
+	1    10100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S12
+U 1 1 5ACFAB25
+P 3500 2800
+F 0 "S12" H 3500 2750 60  0000 C CNN
+F 1 "CHERRY_MX" H 3500 3000 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 3500 3000 60  0001 C CNN
+F 3 "" H 3500 3000 60  0001 C CNN
+	1    3500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S22
+U 1 1 5ACFAB50
+P 4650 2800
+F 0 "S22" H 4650 2750 60  0000 C CNN
+F 1 "CHERRY_MX" H 4650 3000 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 4650 3000 60  0001 C CNN
+F 3 "" H 4650 3000 60  0001 C CNN
+	1    4650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S32
+U 1 1 5ACFAB81
+P 5800 2800
+F 0 "S32" H 5800 2750 60  0000 C CNN
+F 1 "CHERRY_MX" H 5800 3000 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 5800 3000 60  0001 C CNN
+F 3 "" H 5800 3000 60  0001 C CNN
+	1    5800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S42
+U 1 1 5ACFABB4
+P 6850 2800
+F 0 "S42" H 6850 2750 60  0000 C CNN
+F 1 "CHERRY_MX" H 6850 3000 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 6850 3000 60  0001 C CNN
+F 3 "" H 6850 3000 60  0001 C CNN
+	1    6850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S53
+U 1 1 5ACFABF3
+P 7900 3200
+F 0 "S53" H 7900 3150 60  0000 C CNN
+F 1 "CHERRY_MX" H 7900 3400 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 7900 3400 60  0001 C CNN
+F 3 "" H 7900 3400 60  0001 C CNN
+	1    7900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S61
+U 1 1 5ACFAC28
+P 9000 2400
+F 0 "S61" H 9000 2350 60  0000 C CNN
+F 1 "CHERRY_MX" H 9000 2600 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 9000 2600 60  0001 C CNN
+F 3 "" H 9000 2600 60  0001 C CNN
+	1    9000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S52
+U 1 1 5ACFAC63
+P 7900 2800
+F 0 "S52" H 7900 2750 60  0000 C CNN
+F 1 "CHERRY_MX" H 7900 3000 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 7900 3000 60  0001 C CNN
+F 3 "" H 7900 3000 60  0001 C CNN
+	1    7900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S54
+U 1 1 5ACFACA0
+P 7900 3600
+F 0 "S54" H 7900 3550 60  0000 C CNN
+F 1 "CHERRY_MX" H 7900 3800 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 7900 3800 60  0001 C CNN
+F 3 "" H 7900 3800 60  0001 C CNN
+	1    7900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S43
+U 1 1 5ACFACE7
+P 6850 3200
+F 0 "S43" H 6850 3150 60  0000 C CNN
+F 1 "CHERRY_MX" H 6850 3400 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 6850 3400 60  0001 C CNN
+F 3 "" H 6850 3400 60  0001 C CNN
+	1    6850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S33
+U 1 1 5ACFAD2C
+P 5800 3250
+F 0 "S33" H 5800 3200 60  0000 C CNN
+F 1 "CHERRY_MX" H 5800 3450 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 5800 3450 60  0001 C CNN
+F 3 "" H 5800 3450 60  0001 C CNN
+	1    5800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S23
+U 1 1 5ACFAD6F
+P 4650 3250
+F 0 "S23" H 4650 3200 60  0000 C CNN
+F 1 "CHERRY_MX" H 4650 3450 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 4650 3450 60  0001 C CNN
+F 3 "" H 4650 3450 60  0001 C CNN
+	1    4650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S13
+U 1 1 5ACFADB2
+P 3500 3250
+F 0 "S13" H 3500 3200 60  0000 C CNN
+F 1 "CHERRY_MX" H 3500 3450 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 3500 3450 60  0001 C CNN
+F 3 "" H 3500 3450 60  0001 C CNN
+	1    3500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S14
+U 1 1 5ACFADF5
+P 3500 3700
+F 0 "S14" H 3500 3650 60  0000 C CNN
+F 1 "CHERRY_MX" H 3500 3900 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 3500 3900 60  0001 C CNN
+F 3 "" H 3500 3900 60  0001 C CNN
+	1    3500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S24
+U 1 1 5ACFAE48
+P 4650 3700
+F 0 "S24" H 4650 3650 60  0000 C CNN
+F 1 "CHERRY_MX" H 4650 3900 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 4650 3900 60  0001 C CNN
+F 3 "" H 4650 3900 60  0001 C CNN
+	1    4650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S34
+U 1 1 5ACFAE93
+P 5800 3700
+F 0 "S34" H 5800 3650 60  0000 C CNN
+F 1 "CHERRY_MX" H 5800 3900 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 5800 3900 60  0001 C CNN
+F 3 "" H 5800 3900 60  0001 C CNN
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S44
+U 1 1 5ACFAEDE
+P 6850 3600
+F 0 "S44" H 6850 3550 60  0000 C CNN
+F 1 "CHERRY_MX" H 6850 3800 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 6850 3800 60  0001 C CNN
+F 3 "" H 6850 3800 60  0001 C CNN
+	1    6850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S55
+U 1 1 5ACFAF2F
+P 7900 4000
+F 0 "S55" H 7900 3950 60  0000 C CNN
+F 1 "CHERRY_MX" H 7900 4200 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 7900 4200 60  0001 C CNN
+F 3 "" H 7900 4200 60  0001 C CNN
+	1    7900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S62
+U 1 1 5ACFAF82
+P 9000 2800
+F 0 "S62" H 9000 2750 60  0000 C CNN
+F 1 "CHERRY_MX" H 9000 3000 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 9000 3000 60  0001 C CNN
+F 3 "" H 9000 3000 60  0001 C CNN
+	1    9000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S63
+U 1 1 5ACFAFD3
+P 9000 3200
+F 0 "S63" H 9000 3150 60  0000 C CNN
+F 1 "CHERRY_MX" H 9000 3400 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 9000 3400 60  0001 C CNN
+F 3 "" H 9000 3400 60  0001 C CNN
+	1    9000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S65
+U 1 1 5ACFB022
+P 9000 4000
+F 0 "S65" H 9000 3950 60  0000 C CNN
+F 1 "CHERRY_MX" H 9000 4200 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 9000 4200 60  0001 C CNN
+F 3 "" H 9000 4200 60  0001 C CNN
+	1    9000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S45
+U 1 1 5ACFB079
+P 6850 4000
+F 0 "S45" H 6850 3950 60  0000 C CNN
+F 1 "CHERRY_MX" H 6850 4200 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 6850 4200 60  0001 C CNN
+F 3 "" H 6850 4200 60  0001 C CNN
+	1    6850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S64
+U 1 1 5ACFB246
+P 9000 3600
+F 0 "S64" H 9000 3550 60  0000 C CNN
+F 1 "CHERRY_MX" H 9000 3800 60  0000 C CNN
+F 2 "Atreus_Split:cherry" H 9000 3800 60  0001 C CNN
+F 3 "" H 9000 3800 60  0001 C CNN
+	1    9000 3600
+	1    0    0    -1  
+$EndComp
+Text Label 4500 5050 0    60   ~ 0
+GND_P
+Text Label 3900 4750 0    60   ~ 0
+VCC
+Text Label 3800 5050 0    60   ~ 0
+GND
+$Comp
+L Si2302 Q2
+U 1 1 5AD01620
+P 4300 5800
+F 0 "Q2" H 4500 5875 50  0000 L CNN
+F 1 "Si2302" H 4500 5800 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4500 5725 50  0001 L CIN
+F 3 "" H 4300 5800 50  0001 L CNN
+	1    4300 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Battery_Cell BT1
+U 1 1 5AD01626
+P 4300 6950
+F 0 "BT1" V 4150 6950 50  0000 L CNN
+F 1 "Battery_Cell" V 4450 6800 50  0000 L CNN
+F 2 "Atreus_Split:CR2032_pad" V 4300 7010 50  0001 C CNN
+F 3 "" V 4300 7010 50  0001 C CNN
+	1    4300 6950
+	0    -1   -1   0   
+$EndComp
+Text Label 4500 5900 0    60   ~ 0
+GND_P
+Text Label 3900 5600 0    60   ~ 0
+VCC
+Text Label 3800 5900 0    60   ~ 0
+GND
+Text Label 4600 6950 0    60   ~ 0
+GND_P
+Text Label 3900 6950 0    60   ~ 0
+VCC
+Text Label 3250 4050 1    60   ~ 0
+GND
+Text Label 4400 4250 1    60   ~ 0
+GND
+Text Label 5550 4300 1    60   ~ 0
+GND
+Text Label 6600 4300 1    60   ~ 0
+GND
+Text Label 7650 4350 1    60   ~ 0
+GND
+Text Label 8750 4350 1    60   ~ 0
+GND
+Text Label 9850 3950 1    60   ~ 0
+GND
+$Comp
+L GND #PWR01
+U 1 1 5AD083F1
+P 3650 5900
+F 0 "#PWR01" H 3650 5650 50  0001 C CNN
+F 1 "GND" H 3650 5750 50  0000 C CNN
+F 2 "" H 3650 5900 50  0001 C CNN
+F 3 "" H 3650 5900 50  0001 C CNN
+	1    3650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5AD08447
+P 3650 5050
+F 0 "#PWR02" H 3650 4800 50  0001 C CNN
+F 1 "GND" H 3650 4900 50  0000 C CNN
+F 2 "" H 3650 5050 50  0001 C CNN
+F 3 "" H 3650 5050 50  0001 C CNN
+	1    3650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J1
+U 1 1 5AD0A694
+P 6150 5000
+F 0 "J1" H 6150 5200 50  0000 C CNN
+F 1 "Conn_01x04" H 6150 4700 50  0000 C CNN
+F 2 "Atreus_Split:Pin_Header_Angled_1x04_Pitch2.54mm" H 6150 5000 50  0001 C CNN
+F 3 "" H 6150 5000 50  0001 C CNN
+	1    6150 5000
+	1    0    0    -1  
+$EndComp
+Text Label 5750 4900 2    60   ~ 0
+VCC
+Text Label 5750 5000 2    60   ~ 0
+GND_P
+Text Label 5750 5100 2    60   ~ 0
+SWDIO
+Text Label 5750 5200 2    60   ~ 0
+SWCLK
+Text Label 10450 3750 0    60   ~ 0
+S71
+Text Label 9350 4000 0    60   ~ 0
+S65
+Text Label 9350 3600 0    60   ~ 0
+S64
+Text Label 9350 3200 0    60   ~ 0
+S63
+Text Label 9350 2800 0    60   ~ 0
+S62
+Text Label 9350 2400 0    60   ~ 0
+S61
+Text Label 8250 2400 0    60   ~ 0
+S51
+Text Label 8250 2800 0    60   ~ 0
+S52
+Text Label 8250 3200 0    60   ~ 0
+S53
+Text Label 8250 3600 0    60   ~ 0
+S54
+Text Label 8250 4000 0    60   ~ 0
+S55
+Text Label 7200 2400 0    60   ~ 0
+S41
+Text Label 7200 2800 0    60   ~ 0
+S42
+Text Label 7200 3200 0    60   ~ 0
+S43
+Text Label 7200 3600 0    60   ~ 0
+S44
+Text Label 7200 4000 0    60   ~ 0
+S45
+Text Label 6150 2400 0    60   ~ 0
+S31
+Text Label 6150 2800 0    60   ~ 0
+S32
+Text Label 6200 3250 0    60   ~ 0
+S33
+Text Label 6150 3700 0    60   ~ 0
+S34
+Text Label 5000 2800 0    60   ~ 0
+S22
+Text Label 5050 3250 0    60   ~ 0
+S23
+Text Label 5000 3700 0    60   ~ 0
+S24
+Wire Wire Line
+	4500 5050 4800 5050
+Wire Wire Line
+	3650 4750 4800 4750
+Connection ~ 4300 4750
+Wire Wire Line
+	4100 5050 3650 5050
+Wire Wire Line
+	4500 5900 4800 5900
+Wire Wire Line
+	3650 5600 4800 5600
+Connection ~ 4300 5600
+Wire Wire Line
+	4100 5900 3650 5900
+Wire Wire Line
+	4100 6950 3800 6950
+Wire Wire Line
+	4400 6950 4700 6950
+Wire Wire Line
+	3250 2400 3250 4300
+Connection ~ 3250 2800
+Connection ~ 3250 3250
+Wire Wire Line
+	4400 2400 4400 4250
+Connection ~ 4400 2800
+Connection ~ 4400 3250
+Connection ~ 5550 2800
+Connection ~ 5550 3250
+Wire Wire Line
+	6600 2400 6600 4300
+Connection ~ 6600 2800
+Connection ~ 6600 3200
+Connection ~ 6600 3600
+Wire Wire Line
+	7650 2400 7650 4350
+Connection ~ 7650 2800
+Connection ~ 7650 3200
+Connection ~ 7650 3600
+Wire Wire Line
+	8750 2400 8750 4350
+Connection ~ 8750 2800
+Connection ~ 8750 3200
+Connection ~ 8750 3600
+Connection ~ 5550 3700
+Connection ~ 6600 4000
+Connection ~ 7650 4000
+Connection ~ 4400 3700
+Wire Wire Line
+	5550 2400 5550 4300
+Connection ~ 3250 3700
+Connection ~ 8750 4000
+Wire Wire Line
+	9850 3750 9850 4050
+Wire Wire Line
+	5950 4900 5750 4900
+Wire Wire Line
+	5950 5000 5750 5000
+Wire Wire Line
+	5950 5100 5750 5100
+Wire Wire Line
+	5950 5200 5750 5200
+Wire Wire Line
+	3750 2400 3900 2400
+Wire Wire Line
+	3750 2800 3900 2800
+Wire Wire Line
+	3750 3250 3850 3250
+Wire Wire Line
+	3750 3700 3850 3700
+Wire Wire Line
+	4900 2400 5000 2400
+Wire Wire Line
+	4900 2800 5000 2800
+Wire Wire Line
+	4900 3250 5050 3250
+Wire Wire Line
+	4900 3700 5000 3700
+Wire Wire Line
+	6050 2400 6150 2400
+Wire Wire Line
+	6050 2800 6150 2800
+Wire Wire Line
+	6050 3250 6200 3250
+Wire Wire Line
+	6050 3700 6150 3700
+Wire Wire Line
+	7100 2400 7200 2400
+Wire Wire Line
+	7100 2800 7200 2800
+Wire Wire Line
+	7100 3200 7200 3200
+Wire Wire Line
+	7100 3600 7200 3600
+Wire Wire Line
+	7100 4000 7200 4000
+Wire Wire Line
+	8150 2400 8250 2400
+Wire Wire Line
+	8150 2800 8250 2800
+Wire Wire Line
+	8150 3200 8250 3200
+Wire Wire Line
+	8150 3600 8250 3600
+Wire Wire Line
+	8150 4000 8250 4000
+Wire Wire Line
+	9250 2400 9350 2400
+Wire Wire Line
+	9250 2800 9350 2800
+Wire Wire Line
+	9250 3200 9350 3200
+Wire Wire Line
+	9250 3600 9350 3600
+Wire Wire Line
+	9250 4000 9350 4000
+Wire Wire Line
+	10350 3750 10450 3750
+Text Label 3800 2400 1    60   ~ 0
+S11
+Text Label 3900 2800 0    60   ~ 0
+S12
+Text Label 3850 3250 0    60   ~ 0
+S13
+Text Label 3850 3700 0    60   ~ 0
+S14
+$Comp
+L CORE_NRF51822_Black D2
+U 1 1 5AD1F825
+P 2250 2000
+F 0 "D2" H 1450 1000 60  0000 C CNN
+F 1 "CORE_NRF51822_Black" V 750 1050 60  0000 C CNN
+F 2 "Atreus_Split:CORE_NRF51822_Black" H 2250 2000 60  0001 C CNN
+F 3 "" H 2250 2000 60  0001 C CNN
+	1    2250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CORE_NRF51822_Black D1
+U 1 1 5AD1F8C6
+P 2200 6950
+F 0 "D1" H 1400 5950 60  0000 C CNN
+F 1 "CORE_NRF51822_Black" V 700 6000 60  0000 C CNN
+F 2 "Atreus_Split:CORE_NRF51822_Black" H 2200 6950 60  0001 C CNN
+F 3 "" H 2200 6950 60  0001 C CNN
+	1    2200 6950
+	1    0    0    1   
+$EndComp
+Text Label 5000 2400 1    60   ~ 0
+S21
+Text Label 850  2050 1    60   ~ 0
+S14
+Text Label 950  2050 1    60   ~ 0
+S13
+Text Label 1050 2050 1    60   ~ 0
+S12
+Text Label 1150 2050 1    60   ~ 0
+S11
+Text Label 1450 2050 1    60   ~ 0
+S24
+Text Label 1550 2050 1    60   ~ 0
+S23
+Text Label 1650 2050 1    60   ~ 0
+S22
+Text Label 1750 2050 1    60   ~ 0
+S21
+Text Label 1850 2050 1    60   ~ 0
+S34
+Text Label 1950 2050 1    60   ~ 0
+S33
+Text Label 2450 2450 0    60   ~ 0
+S32
+Text Label 2450 2550 0    60   ~ 0
+S31
+Text Label 2450 2650 0    60   ~ 0
+S45
+Text Label 2450 2750 0    60   ~ 0
+S44
+Text Label 2450 2850 0    60   ~ 0
+S43
+Text Label 2450 2950 0    60   ~ 0
+S42
+Text Label 2450 3150 0    60   ~ 0
+S54
+Text Label 2450 3050 0    60   ~ 0
+S41
+Text Label 2450 3250 0    60   ~ 0
+S53
+Text Label 2450 3350 0    60   ~ 0
+S52
+Text Label 2450 3450 0    60   ~ 0
+S51
+Text Label 2450 3550 0    60   ~ 0
+S55
+Text Label 1750 3950 3    60   ~ 0
+S61
+Text Label 1650 3950 3    60   ~ 0
+S62
+Text Label 1350 3950 3    60   ~ 0
+S63
+Text Label 1250 3950 3    60   ~ 0
+S64
+Text Label 1150 3950 3    60   ~ 0
+S65
+Text Label 1050 3950 3    60   ~ 0
+S71
+Text Label 800  6900 3    60   ~ 0
+S14
+Text Label 1000 6900 3    60   ~ 0
+S71
+Text Label 1100 6900 3    60   ~ 0
+S65
+Text Label 1400 6900 3    60   ~ 0
+S64
+Text Label 1500 6900 3    60   ~ 0
+S63
+Text Label 1600 6900 3    60   ~ 0
+S62
+Text Label 1700 6900 3    60   ~ 0
+S61
+Text Label 1800 6900 3    60   ~ 0
+S34
+Text Label 1900 6900 3    60   ~ 0
+S33
+Text Label 2400 6500 0    60   ~ 0
+S55
+Text Label 2400 6400 0    60   ~ 0
+S51
+Text Label 2400 6300 0    60   ~ 0
+S52
+Text Label 2400 6200 0    60   ~ 0
+S53
+Text Label 2400 6100 0    60   ~ 0
+S54
+Text Label 2400 6000 0    60   ~ 0
+S41
+Text Label 2400 5900 0    60   ~ 0
+S42
+Text Label 2400 5800 0    60   ~ 0
+S43
+Text Label 2400 5700 0    60   ~ 0
+S44
+Text Label 2400 5600 0    60   ~ 0
+S45
+Text Label 2400 5500 0    60   ~ 0
+S31
+Text Label 2400 5400 0    60   ~ 0
+S32
+Text Label 1700 5000 1    60   ~ 0
+S21
+Text Label 1600 5000 1    60   ~ 0
+S22
+Text Label 1300 5000 1    60   ~ 0
+S23
+Text Label 1200 5000 1    60   ~ 0
+S24
+Text Label 1100 5000 1    60   ~ 0
+S11
+Text Label 1000 5000 1    60   ~ 0
+S12
+Text Label 900  5000 1    60   ~ 0
+S13
+Text Label 1200 6900 3    60   ~ 0
+SWCLK
+Text Label 1300 6900 3    60   ~ 0
+SWDIO
+Text Label 800  5000 1    60   ~ 0
+GND
+Text Label 1800 5000 1    60   ~ 0
+GND
+Text Label 1900 5000 1    60   ~ 0
+VCC
+Text Label 850  3950 3    60   ~ 0
+GND
+Text Label 1850 3950 3    60   ~ 0
+GND
+Text Label 1950 3950 3    60   ~ 0
+VCC
+Text Label 1250 2050 1    60   ~ 0
+SWCLK
+Text Label 1350 2050 1    60   ~ 0
+SWDIO
+$EndSCHEMATC

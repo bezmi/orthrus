@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7000
+D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
+$ENDCMP
+#
+$CMP TP0610L
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610L
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+#End Doc Library
